@@ -39,6 +39,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     await SharedPrefsHelper.instance.remove("Tasks");
     await SharedPrefsHelper.instance.remove("fullname");
     await SharedPrefsHelper.instance.remove("movQuote");
+    await SharedPrefsHelper.instance.remove("userPhotoPath");
   }
 
   @override

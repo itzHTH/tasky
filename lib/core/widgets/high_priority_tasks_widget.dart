@@ -76,7 +76,7 @@ class HighPriorityTasksWidget extends StatelessWidget {
                 })
               else
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                  padding: const EdgeInsets.only(left: 16.0, bottom: 8),
                   child: Text(
                     "No High Priority Tasks",
                     style: Theme.of(context).textTheme.titleSmall,
