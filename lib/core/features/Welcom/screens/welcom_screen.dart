@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tasky/core/widgets/custom_text_form_filed_widget.dart';
-import 'package:tasky/screens/%20main_screen.dart';
+import 'package:tasky/core/features/Main/screens/%20main_screen.dart';
 import 'package:tasky/core/services/shard_pers.dart';
 
 class WelcomScreen extends StatelessWidget {
